@@ -1,0 +1,260 @@
+.logo {
+    padding: 10px;
+  }
+  h1.logo {
+    color: #ff757c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+}  
+  main {
+    margin: 0px auto 50px auto;
+    text-align: center;
+    background-image: url('./Resources/assorted-map-pieces.jpg');
+    background-size: cover;
+    text-align: center;
+  }
+  
+  h1 {
+    padding-top: 150px;
+    font-family: Montserrat;
+    font-style: oblique;
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+  }
+  
+  h3 {
+    font-family: Work Sans;
+    font-weight: 500;
+    line-height: 1.29;
+    color: black;
+    padding-left: 5px
+  }
+
+  h4 {
+    text-align: center;
+    font-family: Work Sans;
+    font-weight: 500;
+    line-height: 1.29;
+    color: black;
+    padding-left: 5px
+  }
+
+  a {
+    text-align: center;
+    display: block;
+  }
+  
+  p {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.36;
+    text-align: left;
+    color: #4a4a4a;
+    padding-left: 5px;
+  }
+  
+  form {
+    display: inline-block;
+    margin-top: 50px;
+    height: 100px;
+  }
+  
+  footer {
+    margin-top: 60px;
+    background-color: #000000c7;
+    display: block;
+    align-items: center;
+    min-height: 65px;
+  }
+  
+  .weather h2 {
+    position: relative;
+    padding: 5px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    max-height: fit-content;
+    margin: auto;
+    visibility: hidden;
+  }
+  
+  .weather h2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 0.78;
+    text-align: left;
+    color: #4a4a4a;
+  }
+  
+  .weather {
+    width: 200px;
+    min-height: 320px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0c39e;
+    box-shadow: -4px 4px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .weathericon {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .venue {
+    border-radius: 8px;
+    background-color: #15bdb1a6;
+    margin: 0px 8px;
+    width: 300px;
+    padding: 8px;
+    box-shadow: -4px 4px 5px 0 rgba(0, 0, 0, 0.5);
+ }
+
+  .venueimage {
+    margin-left: 10px;
+  }
+  
+  .venuephoto {
+    margin: 10px;
+  }
+
+  #venues h2, #venues1 h2 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 0.77;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  #destination {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #27b7c1;
+  }
+  
+  .sectiontitle {
+    width: 300px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sectiontitle h2 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 3.4px;
+    text-align: left;
+    color: #4a4a4a;
+  }
+  
+  #venues {
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+  }
+  
+  #venues1 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+  }
+
+  #weather {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    min-height: 150px;
+  }
+  
+  #city {
+    width: 350px;
+    height: 46px;
+    border-radius: 5px;
+    border: solid 2.5px #ffffff;
+    opacity: 0.73;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: black;
+  }
+  
+  #button {
+    margin: 0 20px;
+    width: 140px;
+    height: 46px;
+    border-radius: 15px;
+    background-color: #15bdb1;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0.94;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 2px 3px 4px 0px black;
+  }
+  
+  .copyright {
+    text-align: center;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+
+
+  
+  @media (max-width: 860px) and (min-width: 360px) {
+    main {
+      background-image: url('./Resources/assorted-map-pieces.jpg');
+    }
+  
+    h1 {
+      padding-top: 80px;
+      font-size: 32px;
+    }
+  
+    form {
+      margin-top: 30px;
+      padding-bottom: 10px;
+    }
+  
+    #venues, #venues1, #weather {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .venue, .weather {
+      margin: 10px auto;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      align-items: center;
+    }
+  
+    .weather {
+      padding: 10px 20px;
+      height: 100%;
+    }
+  
+    .sectiontitle, .sectiontitle h2, #destination {
+      margin: auto;
+      text-align: center;
+    }
+
+  }
